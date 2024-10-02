@@ -1,0 +1,25 @@
+{
+  "name": "devimoveis-api",
+  "version": "1.0.0",
+  "description": "DevImoveis API.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": {
+    "name": "Carlos Farias",
+    "url": "https://github.com/fariascarlos2346"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "sequelize-cli": "^6.6.2",
+    "sucrase": "^3.35.0"
+  }
+}
